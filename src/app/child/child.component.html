@@ -1,0 +1,9 @@
+<div [ngClass]="style" (click)="changeColor()">
+  <h3>{{childtitle}}</h3>
+  <hr>
+ <ul>
+   <li *ngFor="let x of things">{{x}}</li>
+ </ul>
+ Add an item<input type="text" [(ngModel)]="item">
+ <button  (click)="sendToParent()">Add item</button>
+</div>

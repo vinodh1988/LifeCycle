@@ -1,0 +1,23 @@
+.style1{
+    height: 300px;
+    width: 250px;
+    background-color:rgb(111, 184, 111);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.style2{
+    height: 300px;
+    width: 250px;
+    background-color:rgb(88, 82, 25);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 5px lightgray;
+}
